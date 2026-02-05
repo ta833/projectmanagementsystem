@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - TaskMaster Co</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #ffffff;
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+        }
+
+        .contact-section {
+            padding: 60px 0;
+        }
+
+        .contact-title {
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .contact-desc {
+            color: #6c757d;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        .form-control {
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
+        .btn-submit {
+            background-color: #4f7cff;
+            border: none;
+            padding: 8px 18px;
+            font-size: 14px;
+        }
+
+        .contact-info {
+            margin-top: 30px;
+        }
+
+        .contact-info h6 {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .contact-info p {
+            font-size: 14px;
+            color: #6c757d;
+            margin-bottom: 15px;
+        }
+
+        .illustration {
+            background-color: #fdebd2;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .illustration img {
+            max-width: 280px;
+        }
+
+        footer {
+            background-color: #6f9bff;
+            color: white;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 14px;
+        }
+
+        footer p {
+            font-size: 13px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+        <a class="navbar-brand" href="#">TaskMaster Co</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav align-items-center gap-3">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
+                <li class="nav-item"><a class="nav-link" href="solutions.html">Solutions</a></li>
+                <li class="nav-item"><a class="nav-link" href="resourses.html">Resources</a></li>
+                <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+                <li class="nav-item"><a class="btn btn-primary btn-sm" href="getstarted.html">Get Started</a></li>
+                <li class="nav-item"><a class="btn btn-outline-secondary btn-sm" href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- CONTACT SECTION -->
+<section class="contact-section">
+    <div class="container">
+        <div class="row">
+            <!-- FORM -->
+            <div class="col-md-6">
+                <h4 class="contact-title">Contact Us</h4>
+                <p class="contact-desc">
+                    We'd love to hear from you. Fill out the form below to get in touch.
+                </p>
+
+                <form>
+                    <input type="text" class="form-control" placeholder="Full Name">
+                    <input type="email" class="form-control" placeholder="Email">
+                    <input type="text" class="form-control" placeholder="Company">
+                    <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn-submit text-white">Submit</button>
+                </form>
+
+                <!-- CONTACT INFO -->
+                <div class="contact-info">
+                    <h6>Email</h6>
+                    <p>support@taskmaster.com</p>
+
+                    <h6>Phone</h6>
+                    <p>+91 98765 43210</p>
+
+                    <h6>Office Location</h6>
+                    <p>123 Business Street, Chennai, India</p>
+                </div>
+            </div>
+
+            <!-- ILLUSTRATION -->
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+                <div class="illustration">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2922/2922510.png" alt="Support">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container text-center">
+        <div>
+            <a href="#">Home</a>
+            <a href="#">Features</a>
+            <a href="#">Solutions</a>
+            <a href="#">Resources</a>
+            <a href="#">Pricing</a>
+            <a href="#">Contact</a>
+        </div>
+        <p>© 2024 TaskMaster. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

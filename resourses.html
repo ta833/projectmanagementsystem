@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resources - TaskMaster</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body { background:#f4f6f9; font-family: 'Segoe UI', sans-serif; }
+    .section-title { font-weight:700; margin-bottom:20px; }
+    .card img { border-top-left-radius:12px; border-top-right-radius:12px; height:160px; object-fit:cover; }
+    .card { border-radius:12px; box-shadow:0 2px 10px rgba(0,0,0,0.05); }
+    footer { background:#4e73df; color:white; padding:40px 0; }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">TaskMaster</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="nav">
+      <ul class="navbar-nav align-items-center gap-3">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="solutions.html">Solutions</a></li>
+        <li class="nav-item"><a class="nav-link active" href="resourses.html">Resources</a></li>
+        <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="btn btn-primary btn-sm" href="getstarted.html">Start free</a></li>
+        <li class="nav-item"><a class="btn btn-outline-secondary btn-sm" href="login.html">Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HEADER -->
+<section class="py-4">
+  <div class="container">
+    <h3 class="fw-bold">Resources</h3>
+    <p class="text-muted">Explore guides, articles, and tools to help you get the most out of TaskMaster.</p>
+
+    <div class="row g-2 mt-3">
+      <div class="col-md-8">
+        <input class="form-control" placeholder="Search resources...">
+      </div>
+      <div class="col-md-4 d-flex gap-2">
+        <button class="btn btn-outline-secondary w-100">All</button>
+        <button class="btn btn-outline-secondary w-100">Guides</button>
+        <button class="btn btn-outline-secondary w-100">Webinars</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED -->
+<section class="py-4">
+  <div class="container">
+    <h5 class="section-title">Featured Resources</h5>
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7">
+          <div class="card-body">
+            <h6 class="fw-bold">Boost CRM efficiency with automation</h6>
+            <p class="text-muted small">Learn how automation improves workflow and productivity.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+          <div class="card-body">
+            <h6 class="fw-bold">Increase team velocity with clear sprints</h6>
+            <p class="text-muted small">Strategies to deliver projects faster with agile planning.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1485217988980-11786ced9454">
+          <div class="card-body">
+            <h6 class="fw-bold">Mastering project reporting</h6>
+            <p class="text-muted small">Create reports that stakeholders actually understand.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section class="py-4">
+  <div class="container">
+    <h5 class="section-title">Latest Blog Posts</h5>
+    <div class="row g-4">
+
+      <div class="col-md-3">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d">
+          <div class="card-body"><p class="small">Simple remote team collaboration tips.</p></div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7">
+          <div class="card-body"><p class="small">Minimal workspace inspiration.</p></div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+          <div class="card-body"><p class="small">How to manage deadlines effectively.</p></div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1485217988980-11786ced9454">
+          <div class="card-body"><p class="small">Workflow optimization guide.</p></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="py-5">
+  <div class="container">
+    <h5 class="section-title">Frequently Asked Questions</h5>
+
+    <div class="accordion" id="faq">
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#q1">What is TaskMaster?</button>
+        </h2>
+        <div id="q1" class="accordion-collapse collapse show" data-bs-parent="#faq">
+          <div class="accordion-body">TaskMaster is a project management platform for teams.</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q2">Is there a free plan?</button>
+        </h2>
+        <div id="q2" class="accordion-collapse collapse" data-bs-parent="#faq">
+          <div class="accordion-body">Yes, you can start free with basic features.</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q3">Can I cancel anytime?</button>
+        </h2>
+        <div id="q3" class="accordion-collapse collapse" data-bs-parent="#faq">
+          <div class="accordion-body">Absolutely, there are no long‑term contracts.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container text-center">
+    <p class="mb-2">TaskMaster</p>
+    <p class="small">©2026 TaskMaster. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
